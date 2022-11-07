@@ -6,6 +6,8 @@ Build-Depends: debhelper (>= 9), libpam-dev, autoconf-archive, gnulib, libtool
 Standards-Version: 4.6.1.0
 Homepage: https://github.com/kravietz/pam_tacplus
 Rules-Requires-Root: no
+Vcs-Git: https://github.com/kravietz/pam_tacplus.git
+Vcs-Browser: https://github.com/kravietz/pam_tacplus
 
 Package: libpam-tacplus
 Architecture: any
