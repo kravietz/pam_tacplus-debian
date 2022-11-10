@@ -2,7 +2,7 @@ Source: libpam-tacplus
 Section: admin
 Priority: optional
 Maintainer: Jeroen Nijhof <jeroen@jeroennijhof.nl>
-Build-Depends: debhelper (>= 9), libpam-dev, autoconf-archive, gnulib, libtool
+Build-Depends: debhelper-compat (= 13), libpam-dev, autoconf-archive, gnulib, libtool
 Standards-Version: 4.6.1.0
 Homepage: https://github.com/kravietz/pam_tacplus
 Rules-Requires-Root: no
