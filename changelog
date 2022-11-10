@@ -1,6 +1,8 @@
 libpam-tacplus (1.7.0-0.1) unstable; urgency=medium
 
   * Non-maintainer upload.
+  * Salvage Debian package removed by QA due to a significant
+    outstanding bug fixed in upstream.
   * Improve Debian packaging - implement Lintian changes.
   * libtac: Refactored the complex and overengineered TACACS+ session
     id generation, replacing it with getrandom(2).
@@ -19,7 +21,7 @@ libpam-tacplus (1.7.0-0.1) unstable; urgency=medium
     cryptographically random tasks identifiers.
   * libtac: Fix CVE-2016-20014. Closes: #1009966
 
- -- Pawel Krawczyk <p+debian@krvtz.net>  Mon, 07 Nov 2022 10:30:00 +0100
+ -- Pawel Krawczyk <p+debian@krvtz.net>  Mon, 10 Nov 2022 13:30:00 +0100
 
 libpam-tacplus (1.6.2-1) unstable; urgency=medium
 
